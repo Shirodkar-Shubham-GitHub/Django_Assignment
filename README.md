@@ -27,10 +27,10 @@ This project demonstrates the synchronous execution of Django signals. By defaul
 
 ## Sample Signal Synchrony Output
    ```sh
-    Before signal: 2024-09-11 10:00:00
-    Signal received for User: testuser
-    Signal processing completed for User: testuser
-    After signal: 2024-09-11 10:00:05
+    Before signal: 2024-09-15 12:43:40.446308
+    Signal received for User: testuser3
+    Signal processing completed for User: testuser3
+    After signal: 2024-09-15 12:43:45.790104
     ```
 
 # 2) Question - Django Signals Same Thread Demonstration
@@ -47,8 +47,8 @@ This project demonstrates that Django signals run in the same thread as the call
 
 ## Sample Signal Thread Output
    ```sh
-    Caller thread: MainThread
-    Signal handler thread: MainThread
+    Caller thread: Thread-1 (process_request_thread)
+    Signal handler thread: Thread-1 (process_request_thread)
     ```
 
 
