@@ -31,7 +31,7 @@ This project demonstrates the synchronous execution of Django signals. By defaul
     Signal received for User: testuser3
     Signal processing completed for User: testuser3
     After signal: 2024-09-15 12:43:45.790104
-    ```
+   ```
 
 # 2) Question - Django Signals Same Thread Demonstration
 
@@ -49,7 +49,7 @@ This project demonstrates that Django signals run in the same thread as the call
    ```sh
     Caller thread: Thread-1 (process_request_thread)
     Signal handler thread: Thread-1 (process_request_thread)
-    ```
+   ```
 
 
 # 3) Question - Django Signal Transaction Demonstration
@@ -94,5 +94,5 @@ This Django project demonstrates that Django signals (like post_save) run in the
     Raising exception to trigger rollback
     Transaction rolled back due to: Simulating an error
     Check if the object exists: False
-    ```
+   ```
 
